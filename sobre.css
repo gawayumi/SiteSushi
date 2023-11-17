@@ -1,0 +1,128 @@
+
+header{ /* FUNDO DO TÍTULO */
+    background-color: #292828;
+    width: 500px; /* delimitando o tamanho do header, delimita a linha */
+    height: 80px;
+    border-bottom-style: solid;
+    border-color: white;
+    margin: auto;
+}
+header p{ /* TÍTULO */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* COLOCA O TEXTO NO CENTRO VERTICALMENTE */
+    font-size: 30px;
+}
+body{ /* CORPO */
+    background-color: #292828;
+    margin: 0px;
+    text-align: center;
+}
+.topo ul{ /* MENU INTEIRO */
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.menu li{ /* ITENS DO MENU */
+    color: white;
+    display: inline-block;
+    width: 130px;
+}
+.menu li a{ /* LINK DOS ITENS */
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li a:hover{ /* ITEM DO MENU QUANDO PASSA MOUSE EM CIMA */
+    background:#333;
+    color:#fff;
+    text-decoration: underline;
+    font-size: 17px;
+}
+footer /* RETÂNGULO RODAPÉ */
+        {
+            background-color: #0F0E0E;
+            height: 80px;
+            width: 100%;
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            text-align: center;
+        }
+        footer ul{ /* MENU DO RODAPÉ */
+            list-style: none;
+            margin: auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 0;
+        }
+        footer li{ /* ITENS DO MENU DO RODAPÉ */
+            color: white;
+            display: inline-flex;
+            position: static;
+            text-align: center;
+            align-items: center;
+            position: static;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        footer li a{ /* LINK DOS ITENS DO MENU */
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer li a:hover{ /* LINKS DOS ITENS DO MENU QUANDO MOUSE PASSA EM CIMA */
+            color:#fff;
+            text-decoration: underline;
+        }
+
+.txt_sushi /* div dos textos */
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    min-height: 10vw;
+    text-align: justify;
+    margin-top: 3vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 10vw;
+}
+
+h2 /* centraliza os h2 */
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    color: rgba(197, 59, 37, 0.8);
+    font-size: 250%;
+}
+
+.txt_sushi_sushi /* deixa justificado os textos*/
+{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt_titulo 
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espaco /* espaço no começo de cada texto */
+{
+    text-indent: 0.2vw;
+    display: inline-block;
+    margin-right: 1vw;
+
+}
+
+
+

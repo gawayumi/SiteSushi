@@ -1,0 +1,141 @@
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="LogoSite.png"> <!-- ícone na guia -->
+    <title> SITE DO SUSHI </title> <!-- título na guia -->
+    <link rel="stylesheet" href="styleGeral.css">
+</head>
+
+<body>
+    <style>
+        .barraPesquisa {
+            margin-left: 70%;
+            margin-top: 1%;
+        }
+        .section-center img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .section-center header{
+            background-color: #292828;
+            width: 60%;
+            height: fit-content;
+            border-bottom-style: solid;
+            border-color: white;
+            margin-bottom: 5%;
+        }
+        .section-center header p{
+            font-size: medium;
+            font-weight: 700;
+            margin-left: 0;
+            text-align: left;
+        }
+        .section-center p{
+            margin-left: 20%;
+        }
+		.cardapio{
+            padding-top: 5%;
+			display: table;
+		}
+		.imagem{
+			display: table-cell;
+			float: left;
+			margin: 2%;
+			box-shadow: -10px -10px 2px #ff212e;			
+		}
+		.sushi-dados{
+			display: table-cell;
+			float: left;
+			width: 60%;
+			margin-top: 25px;
+            color: white;
+            text-align: justify;
+		}
+        article{ /* CADA ITEM DO CARDÁPIO ESTÁ DENTRO DE UM ARTICLE */
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+            width: 50%;
+            padding-bottom: 5%;
+        }
+        .botoesFiltro{
+            align-items: center;
+            position: static;
+        }
+    </style>
+
+    <header>
+        <p> SITE DO SUSHI </p>
+    </header>
+    
+    <nav class="topo">
+        <ul class="menu">
+            <li style="width: 90px"> <a href="Home.html"> HOME </a> </li>
+            <li style="width: 90px"> <a href="Sobre.html"> SOBRE </a> </li>
+            <li> <a href="Cardapio.html"> CARDÁPIO </a> </li>
+            <li> <a href="localizacao.html"> LOCALIZAÇÃO </a> </li>
+            <li style="width: 25px; height: auto; padding-left: 15px"> 
+                <a href="https://www.instagram.com/universidadepositivo/">
+                    <img src="InstagramColorido.png" alt="Instagram" style="width: 25px"> 
+                </a>
+            </li>
+            <li style="width: 25px; height: auto; padding-left: 10px">
+                <a href="https://x.com/univ_positivo?s=20"> 
+                    <img src="TwitterColorido.png" alt="Twitter" style="width: 25px"> 
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- BARRA DE PESQUISA -->
+    <div class="barraPesquisa">
+        <input type="text" id="barraPesquisa" placeholder="Pesquisar">
+    </div>
+
+	<section class="cardapio">
+        <!-- BOTÕES DO FILTRO -->
+        <div class="botoesFiltro">
+            <button class="filtro-botao" type="button" data-id="todos"> Todos </button>
+            <button class="filtro-botao" type="button" data-id="doce"> Doces </button>
+            <button class="filtro-botao" type="button" data-id="quente"> Quentes </button>
+            <button class="filtro-botao" type="button" data-id="temaki"> Temaki </button>
+            <button class="filtro-botao" type="button" data-id="frio"> Frios </button>
+        </div>
+        <div class="section-center">
+            <!-- ITENS SERÃO APRESENTADOS AQUI -->
+        </div>
+	</section>
+
+    <script src="Cardapio.js"></script>
+
+    <footer>
+            <ul>
+                <li style="width: 65px; height: 65px; padding: 0">
+                    <img src="Logo.png" alt="Logo" style="width: 65px"> 
+                </li>
+                <li style="font-size: 10px; padding-left: 3px; padding-top: 30px;"> Site do Sushi </li>
+                <li> 
+                    <img src="Localizacao.png" alt="Localização" style="width: 25px; height: auto; padding: 5px">
+                    <a href="https://maps.app.goo.gl/C8HhoXrpvHDFpFnx8"> Praça General Osório, 125 </a>
+                </li>
+                <li> 
+                    <img src="TelefoneBranco.png" alt="Telefone" style="width: 25px; height: auto; padding: 5px">
+                    (41) 3333-3333
+                </li>
+                <li> 
+                    <img src="E-mailIcon.png" alt="EmailIcon" style="width: 25px; height: auto; padding: 5px">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzSGlGWwnNDbSXdZbRfhhqRQGplmzHZgpFBTtdZDVHHzVxNWQHqsGVfXSRJsDcVZJvX"> sitedesushi@gmail.com </a>
+                </li>
+                <li style="width: 25px; padding: 0; padding-left: 150px">
+                    <a href="https://www.instagram.com/universidadepositivo/">
+                        <img src="InstagramBranco.png" alt="Instagram Branco" style="width: 25px; height: auto;"> 
+                    </a>
+                </li>
+                <li style="width: 25px; height: auto; padding-left: 15px; padding-right: 0;">
+                    <a href="https://x.com/univ_positivo?s=20"> 
+                        <img src="TwitterBranco.png" alt="Twitter Branco" style="width: 25px"> 
+                    </a>
+                </li>
+            </ul>
+    </footer>
+</body>
+</html>
